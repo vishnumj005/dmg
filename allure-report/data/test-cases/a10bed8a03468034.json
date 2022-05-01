@@ -1,0 +1,135 @@
+{
+  "uid" : "a10bed8a03468034",
+  "name" : "test_registration_page",
+  "fullName" : "Source.test_0001_Registration#test_registration_page",
+  "historyId" : "2908006a1695b28ca01e33fcbc3b6694",
+  "time" : {
+    "start" : 1651393007072,
+    "stop" : 1651393034836,
+    "duration" : 27764
+  },
+  "description" : "../Features/common_steps.feature: Importing the common steps from conftest",
+  "descriptionHtml" : "<p>../Features/common_steps.feature: Importing the common steps from conftest</p>\n",
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ {
+    "name" : "_pytest_bdd_example",
+    "time" : {
+      "start" : 1651393007071,
+      "stop" : 1651393007071,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "posttest",
+    "time" : {
+      "start" : 1651393007071,
+      "stop" : 1651393007071,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1651393007038,
+      "stop" : 1651393007071,
+      "duration" : 33
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "posttest::0",
+    "time" : {
+      "start" : 1651393081035,
+      "stop" : 1651393082115,
+      "duration" : 1080
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "To test the Registration process"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('request', '_pytest_bdd_example')"
+  }, {
+    "name" : "tag",
+    "value" : "registartion"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Source"
+  }, {
+    "name" : "suite",
+    "value" : "test_0001_Registration"
+  }, {
+    "name" : "host",
+    "value" : "SSSLAP0097-Vishnumj.bbrouter"
+  }, {
+    "name" : "thread",
+    "value" : "15484-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Source.test_0001_Registration"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "fa08fca483961ffb",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: type object 'Dashboard' has no attribute 'sign_in'",
+      "time" : {
+        "start" : 1651392825329,
+        "stop" : 1651392832148,
+        "duration" : 6819
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "run(order=1)", "registartion", "@pytest.mark.usefixtures('request', '_pytest_bdd_example')" ]
+  },
+  "source" : "a10bed8a03468034.json",
+  "parameterValues" : [ ]
+}

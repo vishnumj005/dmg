@@ -1,0 +1,89 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Source",
+    "children" : [ {
+      "name" : "test_0001_Registration",
+      "children" : [ {
+        "name" : "test_registration_page",
+        "uid" : "a10bed8a03468034",
+        "parentUid" : "c4dd2339126781b73dff77918fe5667f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651393007072,
+          "stop" : 1651393034836,
+          "duration" : 27764
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c4dd2339126781b73dff77918fe5667f"
+    }, {
+      "name" : "test_0002_Login",
+      "children" : [ {
+        "name" : "test_login_page",
+        "uid" : "3c7b7fec2c0f6322",
+        "parentUid" : "6e3c0053ffbcca600339431d7ac81cc1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651393034843,
+          "stop" : 1651393045200,
+          "duration" : 10357
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login_wrong_username[abc@jjj.com-Authentication failed.]",
+        "uid" : "be44df7a5ae95d4e",
+        "parentUid" : "6e3c0053ffbcca600339431d7ac81cc1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651393045203,
+          "stop" : 1651393054880,
+          "duration" : 9677
+        },
+        "flaky" : false,
+        "parameters" : [ "{'invalid_username': 'abc@jjj.com', 'warning_message': 'Authentication failed.'}" ]
+      }, {
+        "name" : "test_login_wrong_username[null-Invalid email address.]",
+        "uid" : "cd401d08cd036150",
+        "parentUid" : "6e3c0053ffbcca600339431d7ac81cc1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651393054884,
+          "stop" : 1651393062324,
+          "duration" : 7440
+        },
+        "flaky" : false,
+        "parameters" : [ "{'invalid_username': 'null', 'warning_message': 'Invalid email address.'}" ]
+      }, {
+        "name" : "test_login_wrong_password[automationtest-Authentication failed.]",
+        "uid" : "77df0916d159e78d",
+        "parentUid" : "6e3c0053ffbcca600339431d7ac81cc1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651393062327,
+          "stop" : 1651393071576,
+          "duration" : 9249
+        },
+        "flaky" : false,
+        "parameters" : [ "{'invalid_password': 'automationtest', 'warning_message': 'Authentication failed.'}" ]
+      }, {
+        "name" : "test_login_wrong_password[null-Invalid password.]",
+        "uid" : "f0535e0fb88ed69c",
+        "parentUid" : "6e3c0053ffbcca600339431d7ac81cc1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651393071580,
+          "stop" : 1651393081032,
+          "duration" : 9452
+        },
+        "flaky" : false,
+        "parameters" : [ "{'invalid_password': 'null', 'warning_message': 'Invalid password.'}" ]
+      } ],
+      "uid" : "6e3c0053ffbcca600339431d7ac81cc1"
+    } ],
+    "uid" : "e1c9acebabace5a84af58f3be2089021"
+  } ],
+  "name" : "suites"
+}

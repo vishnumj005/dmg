@@ -1,0 +1,93 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "To test the Registration process",
+    "children" : [ {
+      "name" : "test_registration_page",
+      "uid" : "a10bed8a03468034",
+      "parentUid" : "d449ff4caed532f775093c3d3f377109",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651393007072,
+        "stop" : 1651393034836,
+        "duration" : 27764
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "d449ff4caed532f775093c3d3f377109"
+  }, {
+    "name" : "User is trying to Login using the username and password textbox",
+    "children" : [ {
+      "name" : "test_login_page",
+      "uid" : "3c7b7fec2c0f6322",
+      "parentUid" : "fd95d873349cfe11b8be095ffcb03f77",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651393034843,
+        "stop" : 1651393045200,
+        "duration" : 10357
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "fd95d873349cfe11b8be095ffcb03f77"
+  }, {
+    "name" : "Login functionality with wrong emailid and valid password",
+    "children" : [ {
+      "name" : "test_login_wrong_username[abc@jjj.com-Authentication failed.]",
+      "uid" : "be44df7a5ae95d4e",
+      "parentUid" : "2f491dbb80916063222e7377b9b96f23",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651393045203,
+        "stop" : 1651393054880,
+        "duration" : 9677
+      },
+      "flaky" : false,
+      "parameters" : [ "{'invalid_username': 'abc@jjj.com', 'warning_message': 'Authentication failed.'}" ]
+    }, {
+      "name" : "test_login_wrong_username[null-Invalid email address.]",
+      "uid" : "cd401d08cd036150",
+      "parentUid" : "2f491dbb80916063222e7377b9b96f23",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651393054884,
+        "stop" : 1651393062324,
+        "duration" : 7440
+      },
+      "flaky" : false,
+      "parameters" : [ "{'invalid_username': 'null', 'warning_message': 'Invalid email address.'}" ]
+    } ],
+    "uid" : "2f491dbb80916063222e7377b9b96f23"
+  }, {
+    "name" : "Login functionality with wrong password and valid emai",
+    "children" : [ {
+      "name" : "test_login_wrong_password[automationtest-Authentication failed.]",
+      "uid" : "77df0916d159e78d",
+      "parentUid" : "3ebd03c511be53ba6c09741c85051dc7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651393062327,
+        "stop" : 1651393071576,
+        "duration" : 9249
+      },
+      "flaky" : false,
+      "parameters" : [ "{'invalid_password': 'automationtest', 'warning_message': 'Authentication failed.'}" ]
+    }, {
+      "name" : "test_login_wrong_password[null-Invalid password.]",
+      "uid" : "f0535e0fb88ed69c",
+      "parentUid" : "3ebd03c511be53ba6c09741c85051dc7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651393071580,
+        "stop" : 1651393081032,
+        "duration" : 9452
+      },
+      "flaky" : false,
+      "parameters" : [ "{'invalid_password': 'null', 'warning_message': 'Invalid password.'}" ]
+    } ],
+    "uid" : "3ebd03c511be53ba6c09741c85051dc7"
+  } ],
+  "name" : "behaviors"
+}

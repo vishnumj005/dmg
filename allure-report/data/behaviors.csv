@@ -1,0 +1,5 @@
+"Epic","Feature","Story","FAILED","BROKEN","PASSED","SKIPPED","UNKNOWN"
+"","User is trying to Login using the username and password textbox","","0","0","1","0","0"
+"","Login functionality with wrong password and valid emai","","0","0","2","0","0"
+"","To test the Registration process","","0","0","1","0","0"
+"","Login functionality with wrong emailid and valid password","","0","0","2","0","0"

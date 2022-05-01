@@ -1,0 +1,61 @@
+[ {
+  "uid" : "3c7b7fec2c0f6322",
+  "name" : "test_login_page",
+  "time" : {
+    "start" : 1651393034843,
+    "stop" : 1651393045200,
+    "duration" : 10357
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "77df0916d159e78d",
+  "name" : "test_login_wrong_password[automationtest-Authentication failed.]",
+  "time" : {
+    "start" : 1651393062327,
+    "stop" : 1651393071576,
+    "duration" : 9249
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a10bed8a03468034",
+  "name" : "test_registration_page",
+  "time" : {
+    "start" : 1651393007072,
+    "stop" : 1651393034836,
+    "duration" : 27764
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f0535e0fb88ed69c",
+  "name" : "test_login_wrong_password[null-Invalid password.]",
+  "time" : {
+    "start" : 1651393071580,
+    "stop" : 1651393081032,
+    "duration" : 9452
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "be44df7a5ae95d4e",
+  "name" : "test_login_wrong_username[abc@jjj.com-Authentication failed.]",
+  "time" : {
+    "start" : 1651393045203,
+    "stop" : 1651393054880,
+    "duration" : 9677
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cd401d08cd036150",
+  "name" : "test_login_wrong_username[null-Invalid email address.]",
+  "time" : {
+    "start" : 1651393054884,
+    "stop" : 1651393062324,
+    "duration" : 7440
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

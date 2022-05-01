@@ -4,7 +4,11 @@ browser = 'chrome'
 
 if browser == 'chrome':
     from webdriver_manager.chrome import ChromeDriverManager
-    driver = webdriver.Chrome(executable_path=ChromeDriverManager().install())
+
+    options = webdriver.ChromeOptions()
+    options.add_argument("--incognito")
+
+    driver = webdriver.Chrome(executable_path=ChromeDriverManager().install(), options=options)
     driver.maximize_window()
 
 elif browser == 'firefox':
