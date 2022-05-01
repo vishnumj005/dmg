@@ -13,7 +13,7 @@ from Utils.custom_waits import wait_and_click, \
 
 
 @pytest.mark.run(order=1)
-@pytest.mark.registartion
+@pytest.mark.registration
 @allure.feature('To test the Registration process')
 @scenario('../Features/test_0001_Registration.feature', 'To test the Registration process')
 def test_registration_page():

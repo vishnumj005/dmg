@@ -20,16 +20,6 @@ def test_login_page():
     pass
 
 
-@given("User opens the Automation Practice website")
-def logging_in():
-    pass
-
-
-@when("User clicks Sign-in Page")
-def clicks_signin():
-    pass
-
-
 @when("User enters username and password and clicks sign-in button")
 def username_password():
     load_send_keys("id", Login.txt_email, Environment.email)
